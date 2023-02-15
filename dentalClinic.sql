@@ -73,7 +73,6 @@ CREATE table Payment_Type (Payment_Type_Id     int NOT NULL AUTO_INCREMENT,
 PRIMARY KEY (Payment_Type_Id));				
 	
 
-			
 CREATE table Payment (Payment_Receipt_Id int NOT NULL AUTO_INCREMENT,
 					  Appointment_Id     int NOT NULL,
 					  Payment_Type_Id    int NOT NULL,
@@ -102,8 +101,6 @@ CREATE table Treatment_Medicine (Treatment_Id   int NOT NULL,
 PRIMARY KEY (Treatment_Id, Medicine_Id),
 FOREIGN KEY (Treatment_Id) REFERENCES Treatment(Treatment_Id),
 FOREIGN KEY (Medicine_Id) REFERENCES Medicine(Medicine_Id)); 
-
-
 
 
 INSERT INTO Clinic VALUES ("1", "Saint Patrick Dental Clinic", "13 Dublin road, Dundalk","353 8593 8372","spatrick.dentalclinic@gmail.com");				  

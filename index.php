@@ -20,7 +20,7 @@ $statement->closeCursor();
 
 <!-- the body section -->
 <body>
-<header><h1>DEntal Clinic Manager</h1></header>
+<header><h1>Dental Clinic Manager</h1></header>
 <main>
     <h1> Dental Clinic List</h1>
     <section>
